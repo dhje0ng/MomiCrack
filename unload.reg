@@ -1,0 +1,7 @@
+; 제어판 접근 허용
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer]
+"NoControlPanel"=dword:00000000
+
+; 설정 앱 접근 허용 (Windows 10 이상)
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer]
+"NoControlPanel"=dword:00000000
